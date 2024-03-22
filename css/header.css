@@ -1,0 +1,7 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--font-family-base);
+    font-weight: var(--font-wight-semibold);
+    background-color: greenyellow;
+  }
