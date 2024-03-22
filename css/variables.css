@@ -1,0 +1,21 @@
+:root {
+    --color-dark-primary: #2b2929;
+    --color-dark-secondary: #535353;
+    --color-light-primary: #ffffff;
+    --color-light-secondary: #ffbc57;
+    --color-bg-gray: rgb(248, 248, 248);
+    --color-bg-light: rgb(255, 255, 255);
+   
+  
+    --font-wight-semibold: 600px;
+  
+    --font-family-base: 'Proxima Nova',sans-serif;
+    
+    --container-width: 1290px;
+    --container-padding-x: 15px;
+  
+    --transition-duration: 0.2s;
+    
+    /*! --input-height: 54px; */
+    /*! --header-height: 90px; */
+  }
