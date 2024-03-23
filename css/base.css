@@ -2,6 +2,7 @@ body {
     font-family: var(--font-family-base);
     font-size: 16px;
     /* line-height: 1.75; */
+    line-height: var(--line-height);
     color: var(--color-dark-primary);
     background-color: var(--color-dark);    
   }
@@ -25,4 +26,7 @@ body {
     overflow: hidden !important;
   }
 
-   
+  svg {
+    width: 30px;
+    height: 30px;
+  }

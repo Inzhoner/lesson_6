@@ -2,13 +2,34 @@
   background-color: var(--color-bg-gray);
 }
 
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 18px;
+}
+
+.header__top-navigation {
+}
+
+.navigation-list {
+  display: flex;
+  gap: 30px;
+  color: var(--color-dark-secondary);
+}
+
+.navigation-item {
+}
+
+.header__top-support {
+  display: flex;
+  align-items: center;
+}
 
 
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: var(--font-family-base);
-    font-weight: var(--font-wight-semibold);
-    background-color: greenyellow;
-  }
+.header__main {
+}
+.header__botttom {
+}
+
