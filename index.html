@@ -11,52 +11,126 @@
 <body>
     <!--+ Header -->
     <div class="header">
-        <div class="container">
-            <div class="header__top">
-                <nav class="header__top-navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-item">
-                            <a href="#">Про нас</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#">Оплата</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#">Доставка та збірка</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#">Відгуки</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#">Блог</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#">Контакти</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header__top-support">
-                    <div class="support-text">Допомога і консультація:</div>
-                    <div class="support-messages">
-                        <svg>
-                            <use xlink:href="./img/sprite.svg#whatsapp"></use>
-                        </svg>
-                        <svg>
-                            <use xlink:href="./img/sprite.svg#telegram"></use>
-                        </svg>
-                        <svg>
-                            <use xlink:href="./img/sprite.svg#viber"></use>
-                        </svg>
-                    </div>
-                    <div class="support-language">
-                        <p>UA</p>
+        <!-- Header Top -->
+        <div class="header__top-wrapper">
+            <div class="container">
+                <div class="header__top">
+                    <nav class="header__top-navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item">
+                                <a href="#">Про нас</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="#">Оплата</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="#">Доставка та збірка</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="#">Відгуки</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="#">Блог</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="#">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__top-support">
+                        <div class="support-text">Допомога і консультація:</div>
+                        <div class="support-messages">
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#telegram"></use>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#viber"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="support-language">
+                            <label for="language-select"></label>
+                            <select id="language-select">
+                                <option value="ua">UA</option>
+                                <option value="fr">FR</option>
+                                <option value="en">EN</option>
+                                <option value="de">DE</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="header__main"></div>
-            <div class="header__botttom"></div>
+        </div>
+        <!-- Header Center -->
+        <div class="header__center-wrapper">
+            <div class="header__center">
+                <a href="/">
+                    <img class="header__logo" src="./img/krovato-logo.png" alt="Logo Krovato" width="" height=""
+                        loading="lazy" />
+                </a>
+            </div>
+        </div>
+        <!-- Header Bottom -->
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom-wrapper">
+                    <ul class="header__left-list">
+                        <li class="left-list-item">
+                            <img
+                              class=""
+                              src="./img/star-icon.svg"
+                              alt=""
+                              width="" height="" loading="lazy"
+                            />
+                            <a href="/">Акції</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Розпродаж</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Купити в кредит</a>
+                        </li>
+                    </ul>
+                    <ul class="header__right-list">
+                        <li class="left-list-item">
+                            <a href="/">Дитяча</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Кухня</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Ванна</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Спальня</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Передпокій</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Вітальня</a>
+                        </li>
+                        <li class="left-list-item">
+                            <a href="/">Офіс</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+    <main>
+        <!--+ Breadcrumbs -->
+        <div class="breadcrumbs"></div>
+        <div class="page__info"></div>
+    </main>
 </body>
 
 </html>
