@@ -1,1 +1,22 @@
-/*- Breadcrumbs */
+/*! Breadcrumbs */
+.breadcrumbs ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.breadcrumbs__list-item:not(:last-child)::after {
+    content: url(../img/right-arrow.png);
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.breadcrumbs__list-item:last-child {
+    color: var(--color-light-secondary);
+}
+
+.breadcrumbs__list-item a {
+    text-decoration: line-through;
+}
+

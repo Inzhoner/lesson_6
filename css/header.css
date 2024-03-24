@@ -93,6 +93,7 @@
 .header__left-list li,
 .header__right-list li {
   display: flex;
+  gap: 5px;
   align-items: center;
   cursor: pointer;
 }
