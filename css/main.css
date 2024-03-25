@@ -2,7 +2,6 @@
 .breadcrumbs ul {
     display: flex;
     flex-direction: row;
-    
 }
 
 .breadcrumbs__list-item:not(:last-child)::after {
@@ -21,6 +20,8 @@
 }
 
 /*+ Section Info-page */
+
+/*! с учетом верстки футера 40рх вниз */
 .page-info__wrapper {
     padding: 40px 110px;
 }
@@ -32,26 +33,49 @@
     padding-bottom: 40px;
 }
 .page-info__img {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
-.page-info__img + p {
-    padding-bottom: 28px;
-} 
+.page-info__textbox-1 {
+    margin-bottom: 40px;
+}
 
+.page-info__textbox-1 p:not(:last-child) {
+    margin-bottom: 20px;
+}
 
 .page-info__subtitle {
-}
-.page-info__btn-box {
-}
-.btn {
-}
-.page-info__btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 30px;
 }
 
+.page-info__textbox-2 {
+    margin-bottom: 40px;
+}
 
+.page-info__textbox-2 p {
+    padding-left: 48px;
+    position: relative;
+}
+.page-info__textbox-2 p:not(:last-child) {
+    margin-bottom: 20px;
+}
 
+.page-info__textbox-2 p::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/mark-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transform: translateY(50%); */
+}
 
-
-
-
+.page-info__wrapper p:last-child {
+    margin-bottom: 40px;
+}
