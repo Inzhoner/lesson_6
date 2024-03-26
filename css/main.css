@@ -76,10 +76,10 @@
 /*+ Explore Courses - Section */
 .courses {
     font-family: var(--font-family-secondary);
-    color: var(--color-light-primary);
     background: url('../img/bg-gradient.jpg') 0 center/cover no-repeat;
     font-size: 0px;
-    margin-bottom: 199px;
+    /* !відступ щоб не злипались частини завдання */
+    margin-bottom: 100px;
 }
 
 .courses__text,
@@ -90,6 +90,7 @@
 
 .courses__text {
     max-width: 600px;
+    margin-right: 132px;
 }
 
 .courses__title {
@@ -97,20 +98,25 @@
     font-weight: 700;
     line-height: 48px;
     margin-bottom: 24px;
+    color: var(--color-light-primary);
 }
 
 .courses__subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.6;
+    margin-bottom: 24px;
+    color: var(--color-light-primary);
 }
 .courses__link {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.56;
     color: var(--color-dark-courses);
+    border-radius: 8px;
+    padding: 12px 20px 12px 60px;
+    background: #fff url(../img/courses-button-icon.png) 5% / contain no-repeat;
 }
 
 .courses__img {
 }
-
