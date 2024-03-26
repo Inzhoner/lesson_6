@@ -78,8 +78,7 @@
     font-family: var(--font-family-secondary);
     background: url('../img/bg-gradient.jpg') 0 center/cover no-repeat;
     font-size: 0px;
-    /* !відступ щоб не злипались частини завдання */
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .courses__text,
@@ -118,5 +117,62 @@
     background: #fff url(../img/courses-button-icon.png) 5% / contain no-repeat;
 }
 
-.courses__img {
+/*+ Coral section */
+.coral {
+    background-color: #f4f4f5;
+    background: url("../img/left-flowver.png") 0 85% no-repeat,
+    url("../img/right-flower.png") 100% 70% no-repeat hsl(240deg 5% 96%);
 }
+
+.coral__container {
+    max-width: 1320px;
+    margin-inline: auto;
+}
+.coral__text,
+.coral__img {
+    display: inline-block;
+}
+
+.coral__img {
+    overflow: hidden;
+    /* vertical-align: top; */
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    max-width: 424px;
+    border-top: 2px solid #000;
+    max-height: 542px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-radius: 160px 0 160px 0;
+}
+
+.text-title {
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+.text-subtitle {
+    max-width: 686px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 1.83;
+    text-transform: capitalize;
+}
+
+
+
+.c_rectangle124-rectangle {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    max-width: 424px;
+    border-top: 2px solid #000;
+    max-height: 542px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-radius: 160px 0 160px 0;
+  }
