@@ -5,13 +5,17 @@
     --color-light-secondary: #ffbc57;
     --color-bg-gray: rgb(248, 248, 248);
     --color-bg-light: rgb(255, 255, 255);
+    --color-dark-courses: #0d1216;
      
     --font-wight-semibold: 600px;
     --line-height: 30px;
   
     --font-family-base: 'Proxima Nova',sans-serif;
+    --font-family-secondary: 'Quicksand',sans-serif;
     
     --container-width: 1290px;
+    --container-width-courses: 1280px ;
+    
     --container-padding-x: 15px;
   
     --transition-duration: 0.2s;

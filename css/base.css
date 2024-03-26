@@ -4,16 +4,24 @@ body {
     /* line-height: 1.75; */
     line-height: var(--line-height);
     color: var(--color-dark-primary);
-    background-color: var(--color-dark);    
-  }
+    background-color: var(--color-dark);
+}
 
-  .container {
+.container {
     max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
     margin-inline: auto;
     padding-inline: var(--container-padding-x);
-  }
+}
 
-  .visually-hidden {
+.courses__container {
+    max-width: calc(
+        var(--container-width-courses) + var(--container-padding-x) * 2
+    );
+    margin-inline: auto;
+    padding-inline: var(--container-padding-x);
+}
+
+.visually-hidden {
     position: absolute !important;
     width: 1px !important;
     height: 1px !important;
@@ -24,15 +32,15 @@ body {
     clip-path: inset(100%) !important;
     clip: rect(0 0 0 0) !important;
     overflow: hidden !important;
-  }
+}
 
-  a {
+a {
     display: inline-block;
     position: relative;
-  }
-  
-  a::after {
-    content: "";
+}
+
+a:not(.courses__link, .header__center-logo)::after {
+    content: '';
     position: absolute;
     bottom: 0;
     left: 0;
@@ -40,13 +48,12 @@ body {
     height: 2px;
     background-color: var(--color-dark-secondary);
     transition: width 0.3s ease-out;
-  }
-  
-  a:hover::after {
+}
+
+a:hover::after {
     width: 100%;
-  }
+}
 
-  main {
+main {
     background-color: var(--color-bg-gray);
-  }
-
+}
