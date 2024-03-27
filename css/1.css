@@ -1,0 +1,10 @@
+.coral__text-btn
+
+
+body:not(.coral__text-btn) {
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    line-height: var(--line-height);
+    color: var(--color-dark-primary);
+    background-color: var(--color-dark);
+}
