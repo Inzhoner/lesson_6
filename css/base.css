@@ -38,7 +38,7 @@ a {
     position: relative;
 }
 
-a:not(.courses__link, .header__center-logo)::after {
+a:not(.courses__link, .header__center-, .coral__text-btn)::after {
     content: '';
     position: absolute;
     bottom: 0;

@@ -118,6 +118,7 @@
 
 /*+ Coral section */
 .coral {
+    color: #000;
     background-color: #f4f4f5;
     background: url('../img/left-flowver.png') 0 85% no-repeat,
         url('../img/right-flower.png') 100% 70% no-repeat hsl(240deg 5% 96%);
@@ -151,11 +152,16 @@
 
 .coral__text-btn {
     background: #1e2832 url(../img/coral-bag-icon.png) 25px center no-repeat;
-    color: red;
+    color: #fff; /*! не працює */
     font-size: 29px;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     padding: 20px 26px 20px 64px;
+}
+
+/*! My bad- спочатку хотів як найкраще, а потім часу не вистачає, мій "bug" */
+.coral__text .coral__text-btn {
+    color: #fff;
 }
 
 .coral__img {
