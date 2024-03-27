@@ -149,7 +149,7 @@
 }
 
 .coral__img {
-    /* overflow: hidden; */
+    /*? overflow: hidden; */
     vertical-align: top;
     max-width: 424px;
     width: 100%;
@@ -168,7 +168,7 @@
     margin-left: -18px;
     padding-bottom: 20px;
 
-    /*  також можна таким способом, розкоментуйте код нижче та закоментуйте верхній код для зміщення  */
+    /*  або  */
     /* padding-top: 14px; */
     /* padding-right: 10px; */
 }
