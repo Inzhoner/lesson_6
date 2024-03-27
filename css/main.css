@@ -149,7 +149,7 @@
 }
 
 .coral__img {
-    /*? overflow: hidden; */
+    /* overflow: hidden; */
     vertical-align: top;
     max-width: 424px;
     width: 100%;
@@ -165,12 +165,15 @@
     height: 542px;
 
     /*  зміщення картинки  */
-    margin-left: -18px;
-    padding-bottom: 20px;
+    /* margin-left: -18px;
+    padding-bottom: 20px; */
 
     /*  або  */
     /* padding-top: 14px; */
     /* padding-right: 10px; */
+
+    /* або */
+    margin: -20px 18px 20px -18px;
 }
 
 /*! test */
