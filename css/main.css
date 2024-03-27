@@ -120,39 +120,21 @@
 /*+ Coral section */
 .coral {
     background-color: #f4f4f5;
-    background: url("../img/left-flowver.png") 0 85% no-repeat,
-    url("../img/right-flower.png") 100% 70% no-repeat hsl(240deg 5% 96%);
+    background: url('../img/left-flowver.png') 0 85% no-repeat,
+        url('../img/right-flower.png') 100% 70% no-repeat hsl(240deg 5% 96%);
+    /* padding: 100px; */
 }
 
 .coral__container {
     max-width: 1320px;
     margin-inline: auto;
 }
-.coral__text,
-.coral__img {
-    display: inline-block;
-}
-
-.coral__img {
-    overflow: hidden;
-    /* vertical-align: top; */
-    width: 100%;
-    height: auto;
-    margin: 0;
-    display: block;
-    max-width: 424px;
-    border-top: 2px solid #000;
-    max-height: 542px;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-    border-radius: 160px 0 160px 0;
-}
 
 .text-title {
     font-family: 'Roboto';
     font-size: 50px;
 }
+
 .text-subtitle {
     max-width: 686px;
     font-family: 'Roboto';
@@ -161,18 +143,60 @@
     text-transform: capitalize;
 }
 
+.coral__text,
+.coral__img {
+    display: inline-block;
+}
 
-
-.c_rectangle124-rectangle {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    display: block;
+.coral__img {
+    /* overflow: hidden; */
+    vertical-align: top;
     max-width: 424px;
-    border-top: 2px solid #000;
-    max-height: 542px;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-    border-radius: 160px 0 160px 0;
-  }
+    width: 100%;
+    height: 542px;
+    border: 2px solid #1c1717;
+    border-radius: 160px 0;
+}
+
+.coral__img img {
+    /*  розміри для карtинки  */
+    max-width: 424px;
+    width: 100%;
+    height: 542px;
+
+    /*  зміщення картинки  */
+    margin-left: -18px;
+    padding-bottom: 20px;
+
+    /*  також можна таким способом, розкоментуйте код нижче та закоментуйте верхній код для зміщення  */
+    /* padding-top: 14px; */
+    /* padding-right: 10px; */
+}
+
+/*! test */
+/* ось код який вам потрібно для стилізації */
+/* стилізація картинки */
+.wrapper-image {
+    display: inline-block;
+    max-width: 177px;
+    width: 100%;
+    height: 336px;
+
+    /*  додаєм потрібний бордер і радіус  */
+    border: 1px solid #1c1717;
+    border-radius: 235px;
+}
+
+.wrapper-image img {
+    /*  розміри для каринки  */
+    max-width: 177px;
+    width: 100%;
+    height: 336px;
+
+    /*  зміщення картинки  */
+    margin-left: -10px;
+    padding-top: 14px;
+
+    /*   padding-top: 14px; */
+    /*   padding-right: 10px; */
+}
