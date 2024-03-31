@@ -8,12 +8,12 @@
     --color-dark-courses: #0d1216;
      
     --font-wight-semibold: 600px;
-    --line-height: 30px;
+    --line-height: 1.33;
   
     --font-family-base: 'Proxima Nova',sans-serif;
     --font-family-secondary: 'Quicksand',sans-serif;
     
-    --container-width: 1290px;
+    --container-width: 1070px;
     --container-width-courses: 1280px ;
     
     --container-padding-x: 15px;
