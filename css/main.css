@@ -30,10 +30,11 @@
     font-size: 40px;
     font-weight: 600;
     line-height: 120%;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 .page-info__img {
     margin-bottom: 40px;
+    border-right: 8px;
 }
 
 .page-info__textbox-1 {
