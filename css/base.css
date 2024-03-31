@@ -10,6 +10,7 @@ body {
     max-width: 1070px;
     margin-inline: auto;
     box-sizing:content-box;
+    padding: 25px;
 }
 
 .courses__container {
